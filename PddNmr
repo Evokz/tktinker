@@ -29,7 +29,7 @@ def denied():
 margin = Canvas(root, width=500, bg='#ffc8dd', height=100,
                 bd=0, highlightthickness=0, relief='ridge')
 margin.pack()
-text_id = Label(root, bg='#ffc8dd', text='Quer namorar comigo? 😀',
+text_id = Label(root, bg='#ffc8dd', text='Quer namorar comigo? Sim ou Claro?😀',
                 fg='#590d22', font=('Montserrat', 24, 'bold'))
 text_id.pack()
 button_1 = tk.Button(root, text='Não', bg='#ffb3c1', command=denied,
